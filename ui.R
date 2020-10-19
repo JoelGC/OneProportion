@@ -10,7 +10,7 @@ library(shiny)
 # Define UI for application
 shinyUI(pageWithSidebar(
   # Application title
-  headerPanel("Test for One Proportion (Exact Binomial Test)"),
+  headerPanel("Exact Binomial Test (Test for One Proportion)"),
   # Sidebar with controls to select the sample size and probability to plot
   sidebarPanel(
     p("Enter the number of \"successes\" and the total sample size for a single group below, and enter the desired confidence level and alternative hypothesis 
